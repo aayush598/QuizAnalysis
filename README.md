@@ -1,4 +1,4 @@
-## **📖 Student Performance Analysis (FastAPI + Streamlit + Gemini AI)**
+# **📖 Quiz Analysis (FastAPI + Streamlit + Gemini AI)**
 
 ![Render Deployment](https://img.shields.io/badge/Deployed_on-Render-blue?style=for-the-badge)  
 ![FastAPI](https://img.shields.io/badge/FastAPI-✔-green?style=for-the-badge)  
@@ -7,33 +7,33 @@
 
 ---
 
-### **📌 Project Overview**
+## **📌 Project Overview**
 
-This project provides **student performance analysis** using:  
+**Quiz Analysis** is a system that provides **real-time student performance insights** using:  
 ✅ **FastAPI** for API-based analytics  
 ✅ **Streamlit** for an interactive UI  
 ✅ **Gemini AI API** for personalized recommendations  
 ✅ **Render Deployment** for cloud hosting
 
-🔗 **Live API Endpoint:** [https://your-api-url.onrender.com/docs](#)  
-🔗 **Live Streamlit App:** [https://your-streamlit-url.onrender.com](#)
+🔗 **Live API Endpoint:** [https://quizanalysis.onrender.com/docs](https://quizanalysis.onrender.com/docs)  
+🔗 **Live Streamlit App:** [https://quizanalysis.onrender.com](https://quizanalysis.onrender.com)
 
 ---
 
 ## **🚀 Features**
 
-✅ **API for student performance analytics** (FastAPI)  
+✅ **API-based quiz performance analytics** (FastAPI)  
 ✅ **Interactive Dashboard** (Streamlit)  
 ✅ **AI-powered insights using Google Gemini**  
-✅ **Real-time quiz performance tracking**  
-✅ **Easy cloud deployment on Render**
+✅ **Real-time quiz accuracy & topic tracking**  
+✅ **Deployed on Render for cloud accessibility**
 
 ---
 
 ## **📂 Project Structure**
 
 ```
-student_performance/
+quiz_analysis/
 │── api.py               # FastAPI backend
 │── streamlit_ui.py      # Streamlit frontend
 │── config.py            # Configuration settings
@@ -54,8 +54,8 @@ student_performance/
 ### **1️⃣ Clone the Repository**
 
 ```bash
-git clone https://github.com/your-username/student-performance-api.git
-cd student-performance-api
+git clone https://github.com/aayush598/QuizAnalysis.git
+cd QuizAnalysis
 ```
 
 ### **2️⃣ Install Dependencies**
@@ -88,14 +88,14 @@ streamlit run streamlit_ui.py
 
 ```bash
 git add .
-git commit -m "Deploy FastAPI & Streamlit to Render"
+git commit -m "Renamed project to Quiz Analysis"
 git push origin main
 ```
 
 ### **2️⃣ Deploy FastAPI**
 
 - Go to **Render Dashboard** → **New Web Service**
-- Select **GitHub Repo** (`student-performance-api`)
+- Select **GitHub Repo** (`QuizAnalysis`)
 - Set:
   - **Runtime** → `Python`
   - **Start Command** → `bash start.sh`
@@ -147,11 +147,50 @@ This project is licensed under the **MIT License**.
 
 ---
 
-## **👨‍💻 Author**
+## **👨‍💻 Developed by**
 
-🚀 Developed by **[Your Name](https://github.com/your-username)**  
-📧 Contact: [your-email@example.com](#)
+🚀 **Aayush Gid**  
+📧 Email: [aayushgid598@gmail.com](mailto:aayushgid598@gmail.com)  
+🔗 **Deployed URL:** [https://quizanalysis.onrender.com](https://quizanalysis.onrender.com)  
+🔗 **GitHub Repo:** [https://github.com/aayush598/QuizAnalysis.git](https://github.com/aayush598/QuizAnalysis.git)
 
 ---
 
-Would you like **Docker support** for containerized deployment? 🚀🔥
+## **🚀 Next Steps**
+
+Would you like **Docker support** or **database integration** for better scalability? 🚀🔥
+
+---
+
+### **✅ 3️⃣ Update Project References**
+
+🔹 **Rename GitHub repository to** `QuizAnalysis`.  
+🔹 **Update Render service name to** `quizanalysis`.
+
+---
+
+### **✅ 4️⃣ Update in Code Files**
+
+Replace all instances of **"student_performance_gemini"** with **"quiz_analysis"** in:
+
+- `config.py`
+- `start.sh`
+- `api.py`
+- `streamlit_ui.py`
+- `README.md`
+
+**Command to update references (Linux/Mac):**
+
+```bash
+grep -rl "student_performance_gemini" . | xargs sed -i 's/student_performance_gemini/quiz_analysis/g'
+```
+
+---
+
+## **🎯 Final Steps**
+
+1. ✅ **Push the changes to GitHub**
+2. ✅ **Redeploy on Render**
+3. ✅ **Update the new deployment links in README**
+
+Let me know if you need **Docker support** or **additional features**! 🚀🔥

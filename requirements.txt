@@ -6,4 +6,4 @@ pandas
 matplotlib
 seaborn
 gunicorn
-dotenv
+python-dotenv
