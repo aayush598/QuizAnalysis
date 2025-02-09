@@ -6,7 +6,7 @@ import config
 
 app = FastAPI()
 
-@app.get("/home")
+@app.get("/")
 def home():
     return {"message": "Welcome to the Student Performance API 🚀"}
 

@@ -83,7 +83,7 @@ QUIZ_SUBMISSION_LINK=https://api.jsonserve.com/rJvd7g
 ### **3️⃣ Run FastAPI (Backend)**
 
 ```bash
-uvicorn api:app --host 0.0.0.0 --port 8000 --reload
+uvicorn api:app  --port 8000 --reload
 ```
 
 - Open **http://127.0.0.1:8000/docs** to access API documentation.
