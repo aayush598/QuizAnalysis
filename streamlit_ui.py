@@ -62,10 +62,14 @@ st.pyplot(fig, use_container_width=False)  # Prevent auto-scaling
 # AI-Powered Insights
 st.subheader("🤖 AI-Powered Insights & Recommendations")
 if st.button("Generate Insights with AI"):
-    prompt = f"Analyze the following student performance data: {historical_analysis}. Provide personalized recommendations for improvement."
-    # Show loading spinner while waiting for API response
+    prompt = (
+        f"Analyze the student's performance. "
+        f"Latest Quiz: {current_quiz_analysis}. "
+        f"Past Performance: {historical_analysis}. "
+        f"Submission Data: {submission_analysis}. "
+        f"Provide personalized study recommendations."
+    )
     with st.spinner("Generating AI Insights... Please wait ⏳"):
         ai_insights = get_gemini_insights(prompt)
 
-    # Display AI insights
     st.write(ai_insights)
