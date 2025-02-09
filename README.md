@@ -64,6 +64,22 @@ cd QuizAnalysis
 pip install -r requirements.txt
 ```
 
+### \*\*3️⃣ Create a .env File
+
+Before running the project, create a .env file in the root directory and add the following:
+
+```bash
+GEMINI_API_KEY=YOUR_GEMINI_API_KEY
+
+CURRENT_QUIZ_FILE=quiz_data/current_quiz.json
+HISTORICAL_QUIZ_FILE=quiz_data/historical_quiz.json
+QUIZ_SUBMISSION_FILE=quiz_data/quiz_submission.json
+
+CURRENT_QUIZ_LINK=https://jsonkeeper.com/b/LLQT
+HISTORICAL_QUIZ_LINK=https://api.jsonserve.com/XgAgFJ
+QUIZ_SUBMISSION_LINK=https://api.jsonserve.com/rJvd7g
+```
+
 ### **3️⃣ Run FastAPI (Backend)**
 
 ```bash
